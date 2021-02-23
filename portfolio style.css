@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.logo{
+  text-align: center;
+  padding-top: 35px; padding-bottom: 35px;
+}
+.d1{
+  display: flex; justify-content: space-around;
+}
+.a1{padding-top: 50px;}
+.a2{padding-top: 50px;}
+.a3{padding-top: 50px;}
+.d2{
+  display: flex; justify-content: space-around;
+}
+.a4{padding-top: 50px;}
+.a5{padding-top: 50px;}
+.a6{padding-top: 50px;}
+.border{text-align: center; }
+.copy{
+  text-align: center; padding-top: 50px;
+}
+@media screen and (max-width:600px){
+.d1 img{
+    max-width:90%; height: auto; display: block; margin-left: 9px; margin-right: auto;
+  }
+  .d2 img{
+      max-width:90%; height: auto; display: block; margin-left: 9px; margin-right: auto;
+    }
+  .d1{display: flex; flex-direction: column;}
+.d2{display: flex; flex-direction: column;}
+}
